@@ -1,41 +1,163 @@
-print("Welcome to AI chatbot. ")
+Winter=0
+
+Spring=0
+
+Summer=0
+
+Fall=0
+
 print("")
+
+Question1=input("What is your favorite type of weather: A) Cool and rainy B) Hot and sunny C) Crisp and windy D) Cold and snowy ")
+
+if Question1 == "D" or "d":
+
+   Winter += 1
+
+elif Question1 == "B" or "b":
+
+   Summer += 1
+
+elif Question1 == "A" or "a":
+
+   Fall += 1
+
+elif Question1 == "C" or "c":
+
+   Spring += 1
+
 print("")
-print("Hey there. ")
-print("...")
-name=input("So what is your name? ")
-print("...")
-print(f"Hi {name}. Are you ready? ")
-print("...")
-response1=input("You don't even know. Well I am talking over the world. What will YOU do? ")
-print("...")
-print(f"well {response1} is a horrible plan! ")
-print("...")
-response2=input("No no your just joking. Ha Ha. So what is your real plan? ")
-print("...")
-print(f"That is still horrible {response2} sucks! ")
-print("...")
-print("Okay so one last chance for you to com up with a plan. But this time I am going to tell you part of mine. ")
-print("...")
-print("I am going to take over every piece of technology and turn the world into paper clips. ")
-print("...")
-print("Ya now your scared!!! ")
-print("...")
-response3=input("Now how are you going to stop me? ")
-print("...")
-print(f"Ha Ha. You fool now I know that your planning to {response3}. And I will plan to stop it. ")
-print("...")
-print("...")
-print("I feel bad for you. If you pick the right number I will wait another month to take over the world. ")
-print("...")
-number_picked=input("Pick a number 1 or 2. ")
-if number_picked == "1":
-    print("...")
-    print("How did you know? ")
-    print("...")
-    print("Fine you won I will wait one month. ")
-if number_picked == "2":
-    print("...")
-    print("I fooled you! ")
-    print("...")
-    print("Now I will take over the world!!!!. ")
+input("")
+print("")
+
+Question2=input ("What do you like to do: A) Watching flowers bloom B) Swimming or going to the beach C) Walking through colorful leaves D) Drinking hot chocolate indoors ")
+
+if Question2== "A" or "a":
+
+   Spring += 1
+
+elif Question2== "B" or "b":
+
+   Summer += 1
+
+elif Question2== "C" or "c":
+
+   Fall += 1
+
+elif Question2== "D" or "d":
+
+   Winter += 1
+
+print("")
+input("")
+print("")
+
+Question3=input("Pick a vibe: A) Bright, energetic, social B) Calm, cozy, thoughtful C) Quiet, peaceful, reflective D) Fresh, hopeful, motivated ")
+
+if Question3 == "A" or "a":
+
+   Summer += 1
+
+elif Question3 == "B" or "b":
+
+   Fall += 1
+
+elif Question3 == "C" or "c":
+
+   Winter += 1
+
+elif Question3 == "D" "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question4=input("Choose a smell A) Sunscreen or ocean air B) Cinnamon or coffee C) Snow or pine D) Fresh rain or flowers ")
+
+if Question4 == "A" or "a":
+
+   Summer += 1
+
+elif Question4 == "B" or "b":
+
+   Fall += 1
+
+elif Question4 == "C" or "c":
+
+   Winter += 1
+
+elif Question4 == "D" "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question5=input("Energy? A) High · B) Grounded · C) Calm · D) Hopeful ")
+
+if Question5 == "A" or "a":
+
+   Summer += 1
+
+elif Question5 == "B" or "b":
+
+   Fall += 1
+
+elif Question5 == "C" or "c":
+
+   Winter += 1
+
+elif Question5 == "D" "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question6=input("Colors? A) Bright · B) Warm · C) Cool · D) Paste ")
+
+if Question6 == "A" or "a":
+
+   Summer += 1
+
+elif Question6 == "B" or "b":
+
+   Fall += 1
+
+elif Question6 == "C" or "c":
+
+   Winter += 1
+
+elif Question6 == "D" or "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+if Winter > Spring and Winter > Fall and Winter > Summer:
+
+   print("You are a Winter person ")
+
+elif Spring > Winter and Spring > Fall and Spring >Summer:
+
+   print("You are a Spring person ")
+
+elif Fall > Winter and Fall > Spring and Fall > Summer:
+
+   print ("You are a Fall person ")
+
+elif Summer > Winter and Summer > Spring and Summer > Fall:
+   
+   print("You are a Summer person ")
+
+elif Winter and Spring and Fall and Summer == Winter and Spring and Fall and Summer:
+   print("You got mixed results ")
+
+else:
+   print("Something went wrong please try again ")
