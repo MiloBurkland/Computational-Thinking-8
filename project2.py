@@ -1,45 +1,166 @@
-yes = 0
-no = 0
+Winter=0
 
-A1 = input(" I often fantasize about being powerful, successful, or admired. A) Agree. B) Neutral. C) Disagree. ")
-if A1 == "A":
-    yes = yes + 1
-elif A1 == "C" or "B":
-    no = no + 1
+Spring=0
 
-A2 = input(" When I know someone is struggling, I think of them often and hope they’re doing OK. A) Agree. B) Neutral. C) Disagree. ")
-if A2 == "A":
-    no = no + 1
-elif A2 == "B" or "C":
-    yes = yes + 1
+Summer=0
 
-A3 = input(" I don’t see a problem with lying if it helps me get what I want. A) Agree. B) Neutral. C) Disagree. ")
-if A3 == "A":
-    yes = yes + 1
-elif A3 == "C":
-    no = no + 1
+Fall=0
 
-A4 = input(" If someone told me that I hurt their feelings, I would feel badly. A) Agree. B) Neutral. C) Disagree. ")
-if A4 == "A":
-    no = no + 1
-elif A4 == "B" or "C":
-    yes = yes + 1
-A5 = input(" Other people make so many stupid mistakes compared to me. A) Agree. B) Neutral. C) Disagree. ")
-if A5 == "A":
-    yes = yes + 1
-elif A5 == "C":
-    no = no + 1
-A6 = input( "In truth, I find most people boring or stupid. A) Agree. B) Neutral. C) Disagree. ")
-if A6 == "A" or "B":
-    yes = yes + 1
-elif A6 == "C":
-    no = no + 1
-A7 = input(" People often blame me for things that are actually their fault. A) Agree. B) Neutral. C) Disagree. ")
-if A7 == "A":
-    yes = yes + 1
-elif A7 == "C":
-    no = no + 1
+print("")
 
+Question1=input("What is your favorite type of weather: A) Cool and rainy B) Hot and sunny C) Crisp and windy D) Cold and snowy ")
+
+if Question1 == "D" or "d":
+
+   Winter += 1
+
+elif Question1 == "B" or "b":
+
+   Summer += 1
+
+elif Question1 == "A" or "a":
+
+   Fall += 1
+
+elif Question1 == "C" or "c":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question2=input ("What do you like to do: A) Watching flowers bloom B) Swimming or going to the beach C) Walking through colorful leaves D) Drinking hot chocolate indoors ")
+
+if Question2== "A" or "a":
+
+   Spring += 1
+
+elif Question2== "B" or "b":
+
+   Summer += 1
+
+elif Question2== "C" or "c":
+
+   Fall += 1
+
+elif Question2== "D" or "d":
+
+   Winter += 1
+
+print("")
+input("")
+print("")
+
+Question3=input("Pick a vibe: A) Bright, energetic, social B) Calm, cozy, thoughtful C) Quiet, peaceful, reflective D) Fresh, hopeful, motivated ")
+
+if Question3 == "A" or "a":
+
+   Summer += 1
+
+elif Question3 == "B" or "b":
+
+   Fall += 1
+
+elif Question3 == "C" or "c":
+
+   Winter += 1
+
+elif Question3 == "D" "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question4=input("Choose a smell A) Sunscreen or ocean air B) Cinnamon or coffee C) Snow or pine D) Fresh rain or flowers ")
+
+if Question4 == "A" or "a":
+
+   Summer += 1
+
+elif Question4 == "B" or "b":
+
+   Fall += 1
+
+elif Question4 == "C" or "c":
+
+   Winter += 1
+
+elif Question4 == "D" "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question5=input("Energy? A) High · B) Grounded · C) Calm · D) Hopeful ")
+
+if Question5 == "A" or "a":
+
+   Summer += 1
+
+elif Question5 == "B" or "b":
+
+   Fall += 1
+
+elif Question5 == "C" or "c":
+
+   Winter += 1
+
+elif Question5 == "D" "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+Question6=input("Colors? A) Bright · B) Warm · C) Cool · D) Paste ")
+
+if Question6 == "A" or "a":
+
+   Summer += 1
+
+elif Question6 == "B" or "b":
+
+   Fall += 1
+
+elif Question6 == "C" or "c":
+
+   Winter += 1
+
+elif Question6 == "D" or "d":
+
+   Spring += 1
+
+print("")
+input("")
+print("")
+
+if Winter > Spring and Winter > Fall and Winter > Summer:
+
+   print("You are a Winter person ")
+
+elif Spring > Winter and Spring > Fall and Spring >Summer:
+
+   print("You are a Spring person ")
+
+elif Fall > Winter and Fall > Spring and Fall > Summer:
+
+   print ("You are a Fall person ")
+
+elif Summer > Winter and Summer > Spring and Summer > Fall:
+   
+   print("You are a Summer person ")
+
+elif Winter and Spring and Fall and Summer == Winter and Spring and Fall and Summer:
+   print("You got mixed results ")
+
+else:
+   print("Something went wrong please try again ")
 
 
 
