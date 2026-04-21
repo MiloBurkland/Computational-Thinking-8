@@ -10,19 +10,19 @@ print("")
 
 Question1=input("What is your favorite type of weather: A) Cool and rainy B) Hot and sunny C) Crisp and windy D) Cold and snowy ")
 
-if Question1 == "D" or "d":
+if Question1 == "D":
 
    Winter += 1
 
-elif Question1 == "B" or "b":
+elif Question1 == "B":
 
    Summer += 1
 
-elif Question1 == "A" or "a":
+elif Question1 == "A":
 
    Fall += 1
 
-elif Question1 == "C" or "c":
+elif Question1 == "C":
 
    Spring += 1
 
@@ -32,19 +32,19 @@ print("")
 
 Question2=input ("What do you like to do: A) Watching flowers bloom B) Swimming or going to the beach C) Walking through colorful leaves D) Drinking hot chocolate indoors ")
 
-if Question2== "A" or "a":
+if Question2== "A":
 
    Spring += 1
 
-elif Question2== "B" or "b":
+elif Question2== "B":
 
    Summer += 1
 
-elif Question2== "C" or "c":
+elif Question2== "C":
 
    Fall += 1
 
-elif Question2== "D" or "d":
+elif Question2== "D":
 
    Winter += 1
 
@@ -54,19 +54,19 @@ print("")
 
 Question3=input("Pick a vibe: A) Bright, energetic, social B) Calm, cozy, thoughtful C) Quiet, peaceful, reflective D) Fresh, hopeful, motivated ")
 
-if Question3 == "A" or "a":
+if Question3 == "A":
 
    Summer += 1
 
-elif Question3 == "B" or "b":
+elif Question3 == "B":
 
    Fall += 1
 
-elif Question3 == "C" or "c":
+elif Question3 == "C":
 
    Winter += 1
 
-elif Question3 == "D" "d":
+elif Question3 == "D":
 
    Spring += 1
 
@@ -76,7 +76,7 @@ print("")
 
 Question4=input("Choose a smell A) Sunscreen or ocean air B) Cinnamon or coffee C) Snow or pine D) Fresh rain or flowers ")
 
-if Question4 == "A" or "a":
+if Question4 == "A":
 
    Summer += 1
 
@@ -185,11 +185,7 @@ else:
 
 
 
-if yes > no:
-    print("You have more chycapath aspects then not ")
-elif no > yes:
-    print("You only have a couple of pycopath aspects")
 
 
 
-#https://www.psychologytoday.com/us/tests/personality/psychopathy-test
+
