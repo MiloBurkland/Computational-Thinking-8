@@ -80,15 +80,15 @@ if Question4 == "A":
 
    Summer += 1
 
-elif Question4 == "B" or "b":
+elif Question4 == "B":
 
    Fall += 1
 
-elif Question4 == "C" or "c":
+elif Question4 == "C":
 
    Winter += 1
 
-elif Question4 == "D" "d":
+elif Question4 == "D":
 
    Spring += 1
 
@@ -98,19 +98,19 @@ print("")
 
 Question5=input("Energy? A) High · B) Grounded · C) Calm · D) Hopeful ")
 
-if Question5 == "A" or "a":
+if Question5 == "A":
 
    Summer += 1
 
-elif Question5 == "B" or "b":
+elif Question5 == "B":
 
    Fall += 1
 
-elif Question5 == "C" or "c":
+elif Question5 == "C":
 
    Winter += 1
 
-elif Question5 == "D" "d":
+elif Question5 == "D":
 
    Spring += 1
 
@@ -120,19 +120,19 @@ print("")
 
 Question6=input("Colors? A) Bright · B) Warm · C) Cool · D) Paste ")
 
-if Question6 == "A" or "a":
+if Question6 == "A":
 
    Summer += 1
 
-elif Question6 == "B" or "b":
+elif Question6 == "B":
 
    Fall += 1
 
-elif Question6 == "C" or "c":
+elif Question6 == "C":
 
    Winter += 1
 
-elif Question6 == "D" or "d":
+elif Question6 == "D":
 
    Spring += 1
 
