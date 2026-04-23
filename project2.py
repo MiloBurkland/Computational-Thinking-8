@@ -10,19 +10,19 @@ print("")
 
 Question1=input("What is your favorite type of weather: A) Cool and rainy B) Hot and sunny C) Crisp and windy D) Cold and snowy ")
 
-if Question1 == "D":
+if Question1 == "D" or Question1 == "d":
 
    Winter += 1
 
-elif Question1 == "B":
+elif Question1 == "B" or Question1 == "b":
 
    Summer += 1
 
-elif Question1 == "A":
+elif Question1 == "A" or Question1 == "a":
 
    Fall += 1
 
-elif Question1 == "C":
+elif Question1 == "C" or Question1 == "c":
 
    Spring += 1
 
