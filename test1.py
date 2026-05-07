@@ -22,6 +22,9 @@ def move_sprite_swirly_3(s1):
     time.sleep(0.01)
     window.update()
 
+time .sleep(5)
+turtle.bye() 
+
 while True:
     for a in range (10):
         move_sprite_swirly_1(s1)
